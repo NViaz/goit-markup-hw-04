@@ -583,7 +583,12 @@ footer .logo {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
 }
 
-.projects > .item:hover {
+.projects .link {
+  display: block;
+}
+
+.projects .link:hover,
+.projects .link:focus {
   box-shadow: var(--projects-cards-shadow);
 }
 
